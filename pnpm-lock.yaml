@@ -77,10 +77,10 @@ importers:
         version: 4.9.5(graphql@16.3.0)
       '@discord-nestjs/common':
         specifier: 3.4.2
-        version: 3.4.2(@discord-nestjs/core@3.6.0)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.6.0)(reflect-metadata@0.2.1)(rxjs@7.8.1)
+        version: 3.4.2(@discord-nestjs/core@3.6.0)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.17.1)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@discord-nestjs/core':
         specifier: 3.6.0
-        version: 3.6.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.6.0)(reflect-metadata@0.2.1)(rxjs@7.8.1)
+        version: 3.6.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.17.1)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@discordjs/builders':
         specifier: 0.16.0
         version: 0.16.0
@@ -130,8 +130,8 @@ importers:
         specifier: github:V-ed/discord-music-player
         version: github.com/V-ed/discord-music-player/8ca0ae623496d2e27cacd006f79a974c3956cdb4(ytdl-core@4.11.5)
       discord.js:
-        specifier: 13.6.0
-        version: 13.6.0
+        specifier: 13.17.1
+        version: 13.17.1
       dotenv:
         specifier: 16.3.2
         version: 16.3.2
@@ -1377,7 +1377,7 @@ packages:
       parse-cache-control: 1.0.1
     dev: false
 
-  /@discord-nestjs/common@3.4.2(@discord-nestjs/core@3.6.0)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.6.0)(reflect-metadata@0.2.1)(rxjs@7.8.1):
+  /@discord-nestjs/common@3.4.2(@discord-nestjs/core@3.6.0)(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.17.1)(reflect-metadata@0.2.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-urgTFsqqmCzbqN/Plu0Fhq76MIxN5i0tuWi4FL793nBVe7C6Ail7+ueGvjzWGfBUK/L5EtFBzjD1ptDw9Z+2zg==}
     peerDependencies:
       '@discord-nestjs/core': '*'
@@ -1387,18 +1387,18 @@ packages:
       reflect-metadata: ^0.1.13
       rxjs: ^7.*
     dependencies:
-      '@discord-nestjs/core': 3.6.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.6.0)(reflect-metadata@0.2.1)(rxjs@7.8.1)
+      '@discord-nestjs/core': 3.6.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.17.1)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/common': 9.4.3(class-transformer@0.4.0)(class-validator@0.14.1)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/core': 9.4.3(@nestjs/common@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/mapped-types': 1.0.1(@nestjs/common@9.4.3)(class-transformer@0.5.1)(class-validator@0.13.2)(reflect-metadata@0.2.1)
       class-transformer: 0.5.1
       class-validator: 0.13.2
-      discord.js: 13.6.0
+      discord.js: 13.17.1
       reflect-metadata: 0.2.1
       rxjs: 7.8.1
     dev: false
 
-  /@discord-nestjs/core@3.6.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.6.0)(reflect-metadata@0.2.1)(rxjs@7.8.1):
+  /@discord-nestjs/core@3.6.0(@nestjs/common@9.4.3)(@nestjs/core@9.4.3)(discord.js@13.17.1)(reflect-metadata@0.2.1)(rxjs@7.8.1):
     resolution: {integrity: sha512-RXkfMb/LuUddfuhY622DhTIT53p/ZUFCgSR1Rzt+xdw8xoE6bF6GKNkQisZLWontMsVV/FzoFzAEzDCVdrw4aA==}
     peerDependencies:
       '@nestjs/common': 8.* || 9.*
@@ -1410,21 +1410,9 @@ packages:
       '@nestjs/common': 9.4.3(class-transformer@0.4.0)(class-validator@0.14.1)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       '@nestjs/core': 9.4.3(@nestjs/common@9.4.3)(@nestjs/platform-express@9.4.3)(reflect-metadata@0.2.1)(rxjs@7.8.1)
       class-transformer: 0.5.1
-      discord.js: 13.6.0
+      discord.js: 13.17.1
       reflect-metadata: 0.2.1
       rxjs: 7.8.1
-    dev: false
-
-  /@discordjs/builders@0.11.0:
-    resolution: {integrity: sha512-ZTB8yJdJKrKlq44dpWkNUrAtEJEq0gqpb7ASdv4vmq6/mZal5kOv312hQ56I/vxwMre+VIkoHquNUAfnTbiYtg==}
-    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
-    deprecated: no longer supported
-    dependencies:
-      '@sindresorhus/is': 4.6.0
-      discord-api-types: 0.26.1
-      ts-mixer: 6.0.3
-      tslib: 2.6.2
-      zod: 3.21.4
     dev: false
 
   /@discordjs/builders@0.16.0:
@@ -1439,9 +1427,9 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@discordjs/collection@0.4.0:
-    resolution: {integrity: sha512-zmjq+l/rV35kE6zRrwe8BHqV78JvIh2ybJeZavBi5NySjWXqN3hmmAKg7kYMMXSeiWtSsMoZ/+MQi0DiQWy2lw==}
-    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
+  /@discordjs/collection@0.7.0:
+    resolution: {integrity: sha512-R5i8Wb8kIcBAFEPLLf7LVBQKBDYUL+ekb23sOgpkpyGT+V4P7V83wTxcsqmX+PbqHt4cEHn053uMWfRqh/Z/nA==}
+    engines: {node: '>=16.9.0'}
     deprecated: no longer supported
     dev: false
 
@@ -2065,7 +2053,7 @@ packages:
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@16.3.0)
       '@repeaterjs/repeater': 3.0.4
-      '@types/ws': 8.5.4
+      '@types/ws': 8.5.9
       graphql: 16.3.0
       graphql-ws: 5.12.1(graphql@16.3.0)
       isomorphic-ws: 5.0.0(ws@8.13.0)
@@ -2100,7 +2088,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@graphql-tools/utils': 9.2.1(graphql@16.3.0)
-      '@types/ws': 8.5.4
+      '@types/ws': 8.5.9
       graphql: 16.3.0
       isomorphic-ws: 5.0.0(ws@8.13.0)
       tslib: 2.6.2
@@ -3030,7 +3018,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       consola: 2.15.3
-      node-fetch: 2.6.9
+      node-fetch: 2.6.11
     transitivePeerDependencies:
       - encoding
 
@@ -3326,11 +3314,6 @@ packages:
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
-
-  /@sindresorhus/is@4.6.0:
-    resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
-    engines: {node: '>=10'}
-    dev: false
 
   /@swc/core-darwin-arm64@1.4.2:
     resolution: {integrity: sha512-1uSdAn1MRK5C1m/TvLZ2RDvr0zLvochgrZ2xL+lRzugLlCTlSA+Q4TWtrZaOz+vnnFVliCpw7c7qu0JouhgQIw==}
@@ -3773,12 +3756,12 @@ packages:
     resolution: {integrity: sha512-zdQDHKUgcX/zBc4GrwsE/7dVdAD8JR4EuiAXiiUhhfyIJXXb2+PrGshFyeXWQPMmmZ2XxgaqclgpIC7eTXc1mg==}
     dependencies:
       '@types/node': 16.11.45
+    dev: true
 
   /@types/ws@8.5.9:
     resolution: {integrity: sha512-jbdrY0a8lxfdTp/+r7Z4CkycbOFN8WX+IOchLJr3juT/xzbJ8URyTVSJ/hvNdadTgM1mnedb47n+Y31GsFnQlg==}
     dependencies:
       '@types/node': 16.11.45
-    dev: false
 
   /@typescript-eslint/eslint-plugin@5.59.0(@typescript-eslint/parser@5.19.0)(eslint@8.56.0)(typescript@5.0.4):
     resolution: {integrity: sha512-p0QgrEyrxAWBecR56gyn3wkG15TJdI//eetInP3zYRewDh0XS+DhB3VUAd3QqvziFsfaQIoIuZMxZRB7vXYaYw==}
@@ -6023,9 +6006,8 @@ packages:
     dependencies:
       path-type: 4.0.0
 
-  /discord-api-types@0.26.1:
-    resolution: {integrity: sha512-T5PdMQ+Y1MEECYMV5wmyi9VEYPagEDEi4S0amgsszpWY0VB9JJ/hEvM6BgLhbdnKky4gfmZEXtEEtojN8ZKJQQ==}
-    engines: {node: '>=12'}
+  /discord-api-types@0.33.5:
+    resolution: {integrity: sha512-dvO5M52v7m7Dy96+XUnzXNsQ/0npsYpU6dL205kAtEDueswoz3aU3bh1UMoK4cQmcGtB1YRyLKqp+DXi05lzFg==}
     dev: false
 
   /discord-api-types@0.36.3:
@@ -6047,20 +6029,19 @@ packages:
       - opusscript
     dev: false
 
-  /discord.js@13.6.0:
-    resolution: {integrity: sha512-tXNR8zgsEPxPBvGk3AQjJ9ljIIC6/LOPjzKwpwz8Y1Q2X66Vi3ZqFgRHYwnHKC0jC0F+l4LzxlhmOJsBZDNg9g==}
+  /discord.js@13.17.1:
+    resolution: {integrity: sha512-h13kUf+7ZaP5ZWggzooCxFutvJJvugcAO54oTEIdVr3zQWi0Sf/61S1kETtuY9nVAyYebXR/Ey4C+oWbsgEkew==}
     engines: {node: '>=16.6.0', npm: '>=7.0.0'}
-    deprecated: no longer supported
     dependencies:
-      '@discordjs/builders': 0.11.0
-      '@discordjs/collection': 0.4.0
+      '@discordjs/builders': 0.16.0
+      '@discordjs/collection': 0.7.0
       '@sapphire/async-queue': 1.5.0
       '@types/node-fetch': 2.6.3
-      '@types/ws': 8.5.4
-      discord-api-types: 0.26.1
+      '@types/ws': 8.5.9
+      discord-api-types: 0.33.5
       form-data: 4.0.0
-      node-fetch: 2.6.9
-      ws: 8.13.0
+      node-fetch: 2.6.11
+      ws: 8.14.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -9303,17 +9284,6 @@ packages:
     dependencies:
       whatwg-url: 5.0.0
 
-  /node-fetch@2.6.9:
-    resolution: {integrity: sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      whatwg-url: 5.0.0
-
   /node-int64@0.4.0:
     resolution: {integrity: sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==}
     dev: true
@@ -12522,6 +12492,7 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+    dev: true
 
   /ws@8.14.2:
     resolution: {integrity: sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==}
@@ -12705,10 +12676,6 @@ packages:
       archiver-utils: 2.1.0
       compress-commons: 4.1.1
       readable-stream: 3.6.2
-    dev: false
-
-  /zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
 
   github.com/V-ed/discord-music-player/8ca0ae623496d2e27cacd006f79a974c3956cdb4(ytdl-core@4.11.5):
